@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form class="site-form" action="{% url 'accounts:login' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+
+        {% if request.GET.next %}
+            <input type="hidden" name="next" value="{{ request.GET.next }}">
+        {% endif %}
+
+        <input type="submit" value="login">
+    </form>
+</body>
+</html>
