@@ -1,0 +1,10 @@
+{% extends 'articles/base.html' %}
+
+{% block content %}
+<h1>{{ article.title }}</h1>
+    <form method="get" action="{% url 'articles:update' article.id %}">
+        <input type="submit" value="update">
+    </form>
+    <p>{{ article.date }}</p>
+    <p>{{ article.body }}</p>
+{% endblock content %}

@@ -1,0 +1,17 @@
+{% extends "articles/base.html" %}
+
+{% block content %}
+    <h2>All articles</h2>
+    <ul>
+    {% for Article in articles %}
+        <li>
+            <h4>{{ Article.title }}<h4>
+            <form method="get" action="{% url 'articles:details' Article.id %}">
+                <input type="submit" value="detail">
+            </form>
+        </li>
+        {{ Article.snippet }}
+     <br>
+    {% endfor %}
+    <ul>
+{% endblock content %}
