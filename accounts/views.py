@@ -11,7 +11,7 @@ def signup_view(request):
             user = form.save()
             # log the user in
             login(request, user)
-            return redirect("nav:index")
+            return redirect("articles:home")
     else:
         form = UserCreationForm()
     # if there were errors form is sent back
@@ -28,7 +28,7 @@ def login_view(request):
             if 'next' in request.POST:
                 return redirect(request.POST.get("next"))
             else:
-                return redirect("nav:index")
+                return redirect("articles:home")
     else:
         form = AuthenticationForm()
     return render(request, 'accounts/login.html', {'form': form})
@@ -38,4 +38,4 @@ def logout_view(request):
     if request.method == 'POST':
         # current user logged out
         logout(request)
-        return redirect('nav:index')
+        return redirect('accounts:login')

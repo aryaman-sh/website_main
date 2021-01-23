@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2ab3bb21-2f85-486d-82f1-440bfd3d74a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/articles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/articles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/templates/articles/article_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/articles/templates/articles/article_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/templates/articles/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/articles/templates/articles/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/articles/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/articles/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/articles/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website_main/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website_main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website_main/urls.py" afterDir="false" />
@@ -83,6 +92,7 @@
       <workItem from="1611286150103" duration="9765000" />
       <workItem from="1611303262534" duration="1650000" />
       <workItem from="1611315137330" duration="7283000" />
+      <workItem from="1611366537425" duration="3522000" />
     </task>
     <servers />
   </component>
