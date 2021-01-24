@@ -13,10 +13,12 @@
         {% if request.GET.next %}
             <input type="hidden" name="next" value="{{ request.GET.next }}">
         {% endif %}
-        <input style="margin-left: 0px" type="submit" value="login">
+        <input style="margin-left: 0px; background: #ff9933; color: white; width: 200px; height: 50px" type="submit" value="login">
     </form>
+    <!--
     <form action="{% url 'accounts:signup' %}" method="get">
         <input type="submit" value="new user">
     </form>
+    -->
 </body>
 </html>

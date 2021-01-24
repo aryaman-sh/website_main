@@ -22,4 +22,5 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),
     path('nav/', include('nav.urls')),
     path('', include('articles.urls')),
+    path('todo/', include('todo.urls')),
 ]
