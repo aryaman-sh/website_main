@@ -1,0 +1,10 @@
+{% extends 'articles/base.html' %}
+{% block content %}
+    <form method="post" action="{% url 'todo:update' obj.id %}">
+        {% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <input type="submit" value="update">
+    </form>
+{% endblock content %}

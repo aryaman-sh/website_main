@@ -1,0 +1,33 @@
+{% extends 'articles/base.html' %}
+
+{% block content %}
+    <form action="{% url 'todo:add_todo' %}" method="get">
+        <input type="submit" value="New">
+    </form>
+
+    <table style="width: 100%; border: 2px solid black">
+        <tr style="border: 2px solid black">
+            <th>Todo Item</th>
+            <th>Date Due</th>
+            <th>Date Created</th>
+            <th>Actions</th>
+        </tr>
+
+    {% for object in items %}
+        <tr style="border: 2px solid black">
+            <td>{{ object.item }}</td>
+            <td>{{ object.due }}</td>
+            <td>{{ object.created }}</td>
+            <td>
+                <form action="{% url 'todo:delete' object.id %}" method="post" style="margin: auto">
+                    {% csrf_token %}
+                    <input type="submit" value="Completed" style="background: green; color: white">
+                </form>
+                <form action="{% url 'todo:update' object.id %}" method="get" style="margin: auto">
+                    <input type="submit" value="Update" style="background: #ff9933">
+                </form>
+            </td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock content %}

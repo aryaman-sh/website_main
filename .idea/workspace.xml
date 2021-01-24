@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ab3bb21-2f85-486d-82f1-440bfd3d74a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/templates/articles/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/articles/templates/articles/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/articles/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website_main/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website_main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website_main/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="2ab3bb21-2f85-486d-82f1-440bfd3d74a7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +83,7 @@
       <workItem from="1611390207179" duration="939000" />
       <workItem from="1611403346933" duration="433000" />
       <workItem from="1611452456154" duration="18000" />
-      <workItem from="1611456306607" duration="5177000" />
+      <workItem from="1611456306607" duration="5657000" />
     </task>
     <servers />
   </component>
